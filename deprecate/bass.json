@@ -1,0 +1,98 @@
+{
+  "species": "Largemouth Bass",
+  "description": {
+    "common_names": ["Bass", "Largemouth", "Bigmouth"],
+    "scientific_name": "Micropterus salmoides",
+    "appearance": "Greenish body with a broad, dark horizontal stripe along the flank. Large mouth extends past the eye.",
+    "average_size": "1-5 lbs (trophy >10 lbs)",
+    "diet": [
+      "Shad",
+      "Bluegill",
+      "Crayfish",
+      "Minnows",
+      "Frogs",
+      "Insects"
+    ],
+    "behavior": {
+      "spawn_season": "February to May",
+      "spawn_temp": "60-75°F",
+      "spawn_habitat": "Shallow, sandy or gravel beds near shore",
+      "summer_behavior": "Seeks shade or deeper, cooler water during heat; active during low-light hours",
+      "winter_behavior": "Moves to deeper water, slower metabolism, less active",
+      "feeding_patterns": "Most active at dawn and dusk; opportunistic ambush predator"
+    },
+    "weather_reaction": {
+      "cold_front": "Moves deeper, less active, slower bite",
+      "warm_trend": "More active, moves shallow, increased feeding",
+      "high_pressure": "Active in shallows, especially near cover",
+      "low_pressure": "Less active, holds near structure",
+      "rain": "Feeds near inflows and muddy water, increased activity",
+      "wind": "Wind-blown banks and points attract baitfish and bass"
+    },
+    "local_environments": [
+      "Vegetated lakes (Lake Tarpon, Lake Kissimmee)",
+      "Ponds with structure (fallen trees, docks)",
+      "Slow-moving rivers (Hillsborough River, Withlacoochee River)",
+      "Canals with grass edges"
+    ]
+  },
+  "strategies": [
+    {
+      "conditions": {
+        "time": "05:00-09:00",
+        "season": "Spring",
+        "weather": "cloudy"
+      },
+      "baits": ["Topwater frog", "Swimbait", "Live shiner"],
+      "method": "Cast parallel to vegetation edges and over submerged grass beds. Use slow, steady retrieves."
+    },
+    {
+      "conditions": {
+        "time": "16:00-20:00",
+        "season": "Summer",
+        "weather": "rain"
+      },
+      "baits": ["Weightless Senko", "Carolina rig", "Live worm"],
+      "method": "Target areas near inflows and cover. Fish slow and close to structure."
+    },
+    {
+      "conditions": {
+        "weather": "cloudy",
+        "season": "Fall"
+      },
+      "baits": ["Texas-rigged worm", "Crankbait"],
+      "method": "Fish around submerged structures and drop-offs. Use erratic retrieves to trigger strikes."
+    },
+    {
+      "conditions": {
+        "time": "night",
+        "season": "Summer",
+        "lunar_phase": "Full Moon"
+      },
+      "baits": ["Black spinnerbait", "Topwater mouse", "Live shiner"],
+      "method": "Fish shallow flats and points. Use noisy lures to attract bass in low visibility."
+    },
+    {
+      "conditions": {
+        "time": "midday",
+        "season": "Winter",
+        "weather": "sunny"
+      },
+      "baits": ["Jig and pig", "Slow-rolled swimbait"],
+      "method": "Fish deep structure (ledges, drop-offs). Present lures slowly and close to the bottom."
+    },
+    {
+      "conditions": {
+        "spawn": true,
+        "season": "Spring"
+      },
+      "baits": ["Texas-rigged lizard", "Wacky-rigged Senko"],
+      "method": "Sight-fish for bass on beds in shallow water. Cast past the bed and drag lure through slowly."
+    }
+  ],
+  "notes": [
+    "Best fishing months: February through May for trophy bass.",
+    "Practice catch and release for large, spawning females.",
+    "Use polarized sunglasses to spot fish and structure."
+  ]
+}
