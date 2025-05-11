@@ -1,0 +1,282 @@
+{
+  "largemouth_bass": {
+    "name": "Largemouth Bass",
+    "locations": {
+      "pond": {
+        "rod": [
+          { "type": "Medium Spinning Rod (6'–7')", "score": 5, "reason": "Great for casting light lures and fighting bass in smaller waters." }
+        ],
+        "reel": [
+          { "type": "Spinning Reel (2500–3000)", "score": 5, "reason": "Easy to use and perfect for beginners." }
+        ],
+        "line": [
+          { "type": "8–12 lb Monofilament", "score": 5, "reason": "Strong enough for pond bass, yet easy to cast." }
+        ],
+        "lure": [
+          { "type": "Plastic Worm (Texas Rig)", "score": 5, "reason": "Bass love worms in ponds!" },
+          { "type": "Small Spinnerbait", "score": 4, "reason": "Great for active fish." }
+        ]
+      },
+      "lake": {
+        "rod": [
+          { "type": "Medium-Heavy Spinning or Baitcasting Rod", "score": 5, "reason": "Handles bigger bass and heavier cover." }
+        ],
+        "reel": [
+          { "type": "Spinning or Baitcasting Reel", "score": 5, "reason": "Both work well in lakes." }
+        ],
+        "line": [
+          { "type": "10–15 lb Monofilament or Fluorocarbon", "score": 5, "reason": "Strong for bigger fish and cover." }
+        ],
+        "lure": [
+          { "type": "Jig with Craw Trailer", "score": 5, "reason": "Excellent for big bass near structure." },
+          { "type": "Crankbait", "score": 4, "reason": "Covers water and triggers bites." }
+        ]
+      },
+      "river": {
+        "rod": [
+          { "type": "Medium Spinning Rod (6'6\"–7')", "score": 5, "reason": "Good for casting and handling river bass." }
+        ],
+        "reel": [
+          { "type": "Spinning Reel (2500–3000)", "score": 5, "reason": "Easy to use and versatile." }
+        ],
+        "line": [
+          { "type": "10–12 lb Mono/Fluoro", "score": 5, "reason": "Strong enough for river bass, good for casting." }
+        ],
+        "lure": [
+          { "type": "Soft Plastic Crawfish (Texas Rig/Jig)", "score": 5, "reason": "Crawfish are a favorite food for river bass." },
+          { "type": "Spinnerbait (1/4–3/8 oz)", "score": 5, "reason": "Works around wood and rocks." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Try topwater lures at dawn during the full moon.", "conditions": { "lunar_phase": "Full Moon", "time": "05:00-09:00" } },
+      { "description": "Fish deep structure with jigs in hot summer afternoons.", "conditions": { "season": "Summer", "temperature": 82, "time": "12:00-16:00" } },
+      { "description": "Use spinnerbaits near vegetation on cloudy spring days.", "conditions": { "season": "Spring", "weather": "Partly Cloudy" } }
+    ],
+    "fun_fact": "Largemouth bass are Florida's most popular freshwater sport fish!"
+  },
+
+  "bluegill": {
+    "name": "Bluegill (Sunfish)",
+    "locations": {
+      "pond": {
+        "rod": [
+          { "type": "Ultralight Spinning Rod (5'–6')", "score": 5, "reason": "Perfect for small, feisty bluegill." }
+        ],
+        "reel": [
+          { "type": "Ultralight Spinning Reel", "score": 5, "reason": "Easy for kids to use." }
+        ],
+        "line": [
+          { "type": "2–6 lb Monofilament", "score": 5, "reason": "Thin line for better bite detection." }
+        ],
+        "lure": [
+          { "type": "Live Worms or Crickets", "score": 5, "reason": "Bluegill can't resist!" },
+          { "type": "Small Jig or Beetle Spin", "score": 4, "reason": "Fun and easy to cast." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Fish near docks, weeds, or lily pads with a small bobber and worm.", "conditions": {} }
+    ],
+    "fun_fact": "Bluegill have a black spot on their gill cover, like a little earring!"
+  },
+
+  "tilapia": {
+    "name": "Tilapia",
+    "locations": {
+      "pond": {
+        "rod": [
+          { "type": "Light Spinning Rod (6')", "score": 5, "reason": "Tilapia are fun on light tackle." }
+        ],
+        "reel": [
+          { "type": "Light Spinning Reel", "score": 5, "reason": "Smooth and easy for kids." }
+        ],
+        "line": [
+          { "type": "6–10 lb Monofilament", "score": 5, "reason": "Strong enough for tilapia, but still sensitive." }
+        ],
+        "lure": [
+          { "type": "Bread Ball or Corn", "score": 5, "reason": "Tilapia love bread and corn!" },
+          { "type": "Small Jig", "score": 4, "reason": "Sometimes works if fish are aggressive." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Use a small hook and bread or corn near the shoreline.", "conditions": {} }
+    ],
+    "fun_fact": "Tilapia are plant-eaters and often build big nests in shallow water."
+  },
+
+  "catfish": {
+    "name": "Channel Catfish",
+    "locations": {
+      "river": {
+        "rod": [
+          { "type": "Medium-Heavy Spinning Rod (7')", "score": 5, "reason": "Strong enough for big catfish." }
+        ],
+        "reel": [
+          { "type": "Spinning or Baitcasting Reel", "score": 5, "reason": "Handles heavy line and big fish." }
+        ],
+        "line": [
+          { "type": "12–20 lb Monofilament", "score": 5, "reason": "Catfish are strong fighters!" }
+        ],
+        "lure": [
+          { "type": "Chicken Liver or Stink Bait", "score": 5, "reason": "Catfish love smelly bait." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Fish on the bottom with a slip sinker rig and smelly bait.", "conditions": {} }
+    ],
+    "fun_fact": "Catfish have whiskers called barbels to help them smell food in the dark."
+  },
+
+  "crappie": {
+    "name": "Black Crappie",
+    "locations": {
+      "lake": {
+        "rod": [
+          { "type": "Light Spinning Rod (6')", "score": 5, "reason": "Great for casting small jigs." }
+        ],
+        "reel": [
+          { "type": "Spinning Reel", "score": 5, "reason": "Works well with light line." }
+        ],
+        "line": [
+          { "type": "4–8 lb Monofilament", "score": 5, "reason": "Thin line for better bite detection." }
+        ],
+        "lure": [
+          { "type": "Small Jig (1/32–1/16 oz)", "score": 5, "reason": "Crappie love small jigs." },
+          { "type": "Minnow under a Bobber", "score": 4, "reason": "Classic crappie method." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Look for crappie near brush piles or docks and use a small jig or live minnow.", "conditions": {} }
+    ],
+    "fun_fact": "Crappie are sometimes called 'speckled perch' in Florida."
+  },
+
+  "snook": {
+    "name": "Snook",
+    "locations": {
+      "gulf": {
+        "rod": [
+          { "type": "Medium-Heavy Spinning Rod (7')", "score": 5, "reason": "Snook are strong and jump a lot!" }
+        ],
+        "reel": [
+          { "type": "Spinning Reel (4000–5000)", "score": 5, "reason": "Handles big fish and saltwater." }
+        ],
+        "line": [
+          { "type": "15–30 lb Braid with 20–40 lb Leader", "score": 5, "reason": "Strong for snook's sharp gill plates." }
+        ],
+        "lure": [
+          { "type": "Live Shrimp or Pilchard", "score": 5, "reason": "Snook love live bait." },
+          { "type": "Soft Plastic Jerkbait", "score": 4, "reason": "Works well around mangroves." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Fish near docks, mangroves, or bridges at dawn or dusk.", "conditions": {} }
+    ],
+    "fun_fact": "Snook have a black line down their side and can jump high when hooked!"
+  },
+
+  "redfish": {
+    "name": "Redfish (Red Drum)",
+    "locations": {
+      "gulf": {
+        "rod": [
+          { "type": "Medium Spinning Rod (7')", "score": 5, "reason": "Perfect for casting to redfish schools." }
+        ],
+        "reel": [
+          { "type": "Spinning Reel (3000–4000)", "score": 5, "reason": "Handles saltwater and strong fish." }
+        ],
+        "line": [
+          { "type": "10–20 lb Braid with 20 lb Leader", "score": 5, "reason": "Strong for inshore redfish." }
+        ],
+        "lure": [
+          { "type": "Live Shrimp", "score": 5, "reason": "Redfish can't resist shrimp!" },
+          { "type": "Gold Spoon", "score": 4, "reason": "Classic lure for redfish." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Look for redfish near oyster bars and grass flats, cast live shrimp or spoons.", "conditions": {} }
+    ],
+    "fun_fact": "Redfish have a black spot near their tail to confuse predators."
+  },
+
+  "seatrout": {
+    "name": "Spotted Seatrout",
+    "locations": {
+      "gulf": {
+        "rod": [
+          { "type": "Medium-Light Spinning Rod (7')", "score": 5, "reason": "Fun for casting light lures." }
+        ],
+        "reel": [
+          { "type": "Spinning Reel (2500–3000)", "score": 5, "reason": "Smooth and easy to use." }
+        ],
+        "line": [
+          { "type": "8–15 lb Braid with 15 lb Leader", "score": 5, "reason": "Strong for inshore trout." }
+        ],
+        "lure": [
+          { "type": "Soft Plastic Shrimp", "score": 5, "reason": "Trout love shrimp lures." },
+          { "type": "Topwater Plug", "score": 4, "reason": "Exciting surface strikes!" }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Fish early morning on grass flats with soft plastics or topwater lures.", "conditions": {} }
+    ],
+    "fun_fact": "Spotted seatrout make a croaking sound when caught!"
+  },
+
+  "snapper": {
+    "name": "Mangrove Snapper",
+    "locations": {
+      "gulf": {
+        "rod": [
+          { "type": "Medium Spinning Rod (6'6\")", "score": 5, "reason": "Good for fishing around structure." }
+        ],
+        "reel": [
+          { "type": "Spinning Reel (3000)", "score": 5, "reason": "Handles snapper fights." }
+        ],
+        "line": [
+          { "type": "10–15 lb Mono or Braid", "score": 5, "reason": "Strong for snapper, but not too heavy." }
+        ],
+        "lure": [
+          { "type": "Live Shrimp or Small Baitfish", "score": 5, "reason": "Snapper love live bait." },
+          { "type": "Small Jig", "score": 4, "reason": "Works near docks and rocks." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Fish near docks, bridges, or rocky areas with live shrimp.", "conditions": {} }
+    ],
+    "fun_fact": "Mangrove snapper have sharp teeth and love hiding in structure."
+  },
+
+  "sheepshead": {
+    "name": "Sheepshead",
+    "locations": {
+      "gulf": {
+        "rod": [
+          { "type": "Medium Spinning Rod (6'6\")", "score": 5, "reason": "Good for docks and piers." }
+        ],
+        "reel": [
+          { "type": "Spinning Reel (2500–3000)", "score": 5, "reason": "Smooth and easy." }
+        ],
+        "line": [
+          { "type": "10–15 lb Mono or Fluoro", "score": 5, "reason": "Sheepshead have strong teeth!" }
+        ],
+        "lure": [
+          { "type": "Live Fiddler Crab or Shrimp", "score": 5, "reason": "Sheepshead love crustaceans." },
+          { "type": "Small Jig", "score": 4, "reason": "Works around pilings." }
+        ]
+      }
+    },
+    "strategies": [
+      { "description": "Fish near barnacle-covered pilings with live crab or shrimp.", "conditions": {} }
+    ],
+    "fun_fact": "Sheepshead have human-like teeth for crushing shells!"
+  }
+}
