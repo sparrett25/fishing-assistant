@@ -6,29 +6,7 @@ import { getTemperatureData } from "../utils/temperature";
 import { getLunarPhase, getLunarPhaseEmoji } from "../utils/lunar";
 import { findBestStrategies } from "../utils/strategy";
 import TackleBox from "./TackleBox";
-
-// Example fishData object (expand as needed)
-const fishData = {
-  bass: {
-    name: "Largemouth Bass",
-    strategies: [
-      {
-        description: "Try topwater lures at dawn during the full moon.",
-        conditions: { lunar_phase: "Full Moon", time: "05:00-09:00" }
-      },
-      {
-        description: "Fish deep structure with jigs in hot summer afternoons.",
-        conditions: { season: "Summer", temperature: 82, time: "12:00-16:00" }
-      },
-      {
-        description: "Use spinnerbaits near vegetation on cloudy spring days.",
-        conditions: { season: "Spring", weather: "Partly Cloudy" }
-      }
-      // Add more strategies as needed
-    ]
-  }
-  // Add more species as needed
-};
+import fishData from "../data/fishData.json";
 
 export default function Dashboard({
   selectedSpecies = "bass",
@@ -46,8 +24,8 @@ export default function Dashboard({
   const weather = getWeatherData({ date: jsDate });
   const temp = getTemperatureData({ date: jsDate });
 
-  // Find best strategies for this species and these conditions
-  const speciesObj = fishData[selectedSpecies] || fishData["bass"];
+  // Use dynamic fishData from JSON
+  const speciesObj = fishData[selectedSpecies] || Object.values(fishData)[0];
   const bestStrategies = findBestStrategies(speciesObj.strategies, {
     season,
     weather: weather.current,
